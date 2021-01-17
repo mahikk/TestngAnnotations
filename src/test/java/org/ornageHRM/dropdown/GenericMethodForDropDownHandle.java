@@ -42,6 +42,12 @@ public class GenericMethodForDropDownHandle {
 		return driver.findElement(locator);
 	}
 	
+	/**
+	 * this is generic method for dropdown selection
+	 * @param locator
+	 * @param type
+	 * @param value
+	 */
 	public static void selectDropdownValue(By locator,String type, String value) {
 		Select select = new Select(getElement(locator));
 		
