@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PracticeTestNGAnno Test Suite]">
+  <test thread-count="5" name="expectedException tests(failed)">
+    <classes>
+      <class name="org.expectedexception.ExpectedExceptionDemo">
+        <methods>
+          <include name="exceptionTwoTest"/>
+        </methods>
+      </class> <!-- org.expectedexception.ExpectedExceptionDemo -->
+      <class name="org.expectedexception.ExpectedExceptionMessageDemo">
+        <methods>
+          <include name="exceptionMessageThreeTest"/>
+        </methods>
+      </class> <!-- org.expectedexception.ExpectedExceptionMessageDemo -->
+    </classes>
+  </test> <!-- expectedException tests(failed) -->
+</suite> <!-- Failed suite [PracticeTestNGAnno Test Suite] -->

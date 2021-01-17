@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="yahoomail login test suite" duration-ms="50379" started-at="2021-01-02T18:39:30 CST" finished-at="2021-01-02T18:40:21 CST">
+    <groups>
+    </groups>
+    <test name="YahooMail Login Tests-1" duration-ms="49013" started-at="2021-01-02T18:39:30 CST" finished-at="2021-01-02T18:40:19 CST">
+      <class name="com.yahoomail.test.YahooMailLogin">
+        <test-method status="PASS" signature="loginYahoo()[pri:0, instance:com.yahoomail.test.YahooMailLogin@10c8f62]" name="loginYahoo" duration-ms="48800" started-at="2021-01-02T18:39:30 CST" finished-at="2021-01-02T18:40:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginYahoo -->
+      </class> <!-- com.yahoomail.test.YahooMailLogin -->
+    </test> <!-- YahooMail Login Tests-1 -->
+    <test name="YahooMail Login Tests-2" duration-ms="50379" started-at="2021-01-02T18:39:30 CST" finished-at="2021-01-02T18:40:21 CST">
+      <class name="com.yahoomail.test.MailYahooLogin">
+        <test-method status="PASS" signature="yahooMailLogin()[pri:0, instance:com.yahoomail.test.MailYahooLogin@4f8969b0]" name="yahooMailLogin" duration-ms="50299" started-at="2021-01-02T18:39:30 CST" finished-at="2021-01-02T18:40:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooMailLogin -->
+      </class> <!-- com.yahoomail.test.MailYahooLogin -->
+    </test> <!-- YahooMail Login Tests-2 -->
+  </suite> <!-- yahoomail login test suite -->
+</testng-results>

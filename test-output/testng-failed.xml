@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [yahoomail login test suite]" parallel="tests">
+  <test thread-count="3" name="YahooMail Login Tests-2(failed)" parallel="tests">
+    <classes>
+      <class name="com.yahoomail.test.MailYahooLogin">
+        <methods>
+          <include name="yahooMailLogin"/>
+        </methods>
+      </class> <!-- com.yahoomail.test.MailYahooLogin -->
+    </classes>
+  </test> <!-- YahooMail Login Tests-2(failed) -->
+</suite> <!-- Failed suite [yahoomail login test suite] -->

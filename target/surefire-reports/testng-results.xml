@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IncludeExcludeMethod Test Suite" duration-ms="329" started-at="2020-12-28T02:04:57Z" finished-at="2020-12-28T02:04:57Z">
+    <groups>
+    </groups>
+    <test name="IncludeExcludeMethod tests" duration-ms="329" started-at="2020-12-28T02:04:57Z" finished-at="2020-12-28T02:04:57Z">
+      <class name="org.testng.includemethodsexcludemethods.IncludeMethods">
+        <test-method status="PASS" signature="m2Test()[pri:0, instance:org.testng.includemethodsexcludemethods.IncludeMethods@7889a1ac]" name="m2Test" duration-ms="84" started-at="2020-12-28T02:04:57Z" finished-at="2020-12-28T02:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2Test -->
+      </class> <!-- org.testng.includemethodsexcludemethods.IncludeMethods -->
+    </test> <!-- IncludeExcludeMethod tests -->
+  </suite> <!-- IncludeExcludeMethod Test Suite -->
+</testng-results>
